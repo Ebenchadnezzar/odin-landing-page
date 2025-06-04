@@ -1,0 +1,19 @@
+ul {
+    display: flex;
+}
+
+.top {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.footer {
+    background: #1f2937;
+}
