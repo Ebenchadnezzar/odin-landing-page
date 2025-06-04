@@ -1,13 +1,42 @@
 ul {
     display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+body {
+    height: 300vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
 }
 
 .top {
     background-color: #1f2937;
+    padding: 0px 100px;
+    color: #f9faf8;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .header {
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.greeting {
+    display: flex;
+}
+
+.subtext {
+    color: #e5e7eb;
+}
+
+.main-top-text {
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .quote {
