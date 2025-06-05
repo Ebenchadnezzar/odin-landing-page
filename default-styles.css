@@ -23,7 +23,9 @@ body {
 }
 
 .top-photo {
-    background-color: #a5a5a5;
+    background-color: #858585;
+    text-align: center;
+    line-height: 200px;
 }
 
 .greeting div, .top-photo {
@@ -42,7 +44,7 @@ body {
 
 .greeting {
     display: flex;
-    gap: 16px;
+    gap: 32px;
 }
 
 .subtext {
@@ -171,7 +173,12 @@ body {
     font-weight: bold;
 }
 
+
+/* FOOTER */
 .footer {
     background: #1f2937;
     flex: 1;
+    padding: 25px 0px;
+    color: #f9faf8;
+    text-align: center;
 }
